@@ -1,0 +1,10 @@
+# REST 서비스(service/)와 Docker 이미지용 최소 의존성.
+# 전체 프로젝트(torch, tabpfn 등)는 requirements.txt 참고.
+# 여기서 검증한 버전: numpy 2.4.6, pandas 3.0.6, scikit-learn 1.9.1, joblib 1.6.0,
+#                     fastapi 0.143.1, pydantic 2.13.5, uvicorn 0.54.0, httpx 0.28.1 (테스트용)
+numpy
+pandas
+scikit-learn>=1.2
+joblib
+fastapi
+uvicorn
